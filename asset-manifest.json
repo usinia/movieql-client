@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/movieql-client/static/js/main.58e69ff8.chunk.js",
+    "main.js.map": "/movieql-client/static/js/main.58e69ff8.chunk.js.map",
+    "runtime-main.js": "/movieql-client/static/js/runtime-main.371cc89d.js",
+    "runtime-main.js.map": "/movieql-client/static/js/runtime-main.371cc89d.js.map",
+    "static/js/2.bb286d4c.chunk.js": "/movieql-client/static/js/2.bb286d4c.chunk.js",
+    "static/js/2.bb286d4c.chunk.js.map": "/movieql-client/static/js/2.bb286d4c.chunk.js.map",
+    "index.html": "/movieql-client/index.html",
+    "precache-manifest.165e6e740134fc8f9928f0648ca9fb16.js": "/movieql-client/precache-manifest.165e6e740134fc8f9928f0648ca9fb16.js",
+    "service-worker.js": "/movieql-client/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.371cc89d.js",
+    "static/js/2.bb286d4c.chunk.js",
+    "static/js/main.58e69ff8.chunk.js"
+  ]
+}
