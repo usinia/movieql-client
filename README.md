@@ -14,3 +14,6 @@ Client for the MovieQL API built with Apollo of nomadcoders <https://github.com/
 yarn add styled-components
 yarn add styled-reset
 ```
+
+### #8 Conclusions
+`yarn add react-apollo-hooks`

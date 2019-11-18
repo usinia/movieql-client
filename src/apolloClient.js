@@ -1,6 +1,6 @@
-import ApolloCilent from "apollo-boost";
+import ApolloClient from "apollo-boost";
 
-const client = new ApolloCilent({
+const client = new ApolloClient({
   // uri: "http://localhost:4000/"
   uri: "https://movieql.now.sh/"
 });

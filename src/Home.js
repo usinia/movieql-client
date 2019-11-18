@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import { Query } from "react-apollo";
+import { Helmet } from "react-helmet";
+// import { Query } from "react-apollo";
 import { HOME_PAGE } from "./queries";
 import Movie from "./Movie";
+import { useQuery } from "react-apollo-hooks";
 
 const Container = styled.div`
   display: grid;
@@ -11,6 +13,7 @@ const Container = styled.div`
   justify-items: center;
 `;
 
+/*
 const Home = () => {
   return (
     <Container>
@@ -29,6 +32,32 @@ const Home = () => {
           );
         }}
       </Query>
+    </Container>
+  );
+};
+*/
+
+const Home = () => {
+  const { data, loading, error } = useQuery(HOME_PAGE);
+  return (
+    <Container>
+      <Helmet>
+        <title>Home | MovieQL</title>
+      </Helmet>
+      {loading && "Loading"}
+      {error && "Something is wrong"}
+      {!loading &&
+        data &&
+        data.movies &&
+        data.movies.map(movie =>
+          <Movie
+            key={movie.id}
+            id={movie.id}
+            poster={movie.medium_cover_image}
+            title={movie.title}
+            rating={movie.rating}
+          />
+        )}
     </Container>
   );
 };
