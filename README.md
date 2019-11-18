@@ -7,3 +7,10 @@ Client for the MovieQL API built with Apollo of nomadcoders <https://github.com/
 
 ### #4 Getting data from the GraphQL API part One
 `yarn add react-helmet`
+
+### #6 Details Route with params
+
+```shell
+yarn add styled-components
+yarn add styled-reset
+```
