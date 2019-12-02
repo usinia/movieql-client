@@ -2,9 +2,18 @@
 
 Client for the MovieQL API built with Apollo of nomadcoders <https://github.com/nomadcoders/movieql-client>
 
+
+## Skills
+
+- [x] GraphQL
+- [x] Apollo
+- [x] ReactJS
+
+
 ## Try It Out
 
 <https://usinia.github.io/movieql-client/#/>
+
 
 ## 파일 설치
 
